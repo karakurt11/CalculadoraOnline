@@ -1,0 +1,133 @@
+
+@import url('http://fonts.cdnfonts.com/css/anurati');
+@import url('http://fonts.cdnfonts.com/css/made-outer-sans-alt');
+
+                
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #97b4d1;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+i {
+    margin-right: 10px;
+} 
+.borda_texto{
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #000;
+    font-size: 3em; color: #fffdd9;
+    }
+
+hr.style18{
+
+    height: 30px; 
+  border-style: solid; 
+  border-color: #8c8b8b; 
+  border-width: 1px 0 0 0; 
+  border-radius: 20px; 
+}
+
+button{
+    font-family: 'Anurati', sans-serif;
+                                                
+    
+    color: rgb(114, 32, 55);
+}
+h2{
+    font-family: 'Anurati', sans-serif;
+                                                
+    text-align: left;
+    
+   
+}
+
+span{
+   color:  rgb(114, 32, 55);
+   animation: step-end;
+ text-align: left;
+    font-size: 24px;
+    font-family: 'Anurati', sans-serif;
+                                                
+    font-style: oblique;
+}
+.input {
+    font-size: 16px;
+    font-size: max(16px, 1em);
+    font-family: inherit;
+    padding: 0.25em 0.5em;
+    background-color: #fff;
+    border: 2px solid var(--input-border);
+    border-radius: 4px;
+}
+p {
+      color:#23647e
+      
+  }
+
+input:focus,
+button:focus,
+.form-control:focus{
+    outline: none;
+    box-shadow: none;
+}
+.form-control:disabled, .form-control[readonly]{
+    background-color: #fff;
+}
+.table tr,
+.table tr td{
+    vertical-align: middle;
+}
+.button-container{
+    display: flex;
+    align-items: center;
+}
+.button-container .form-control{
+    max-width: 80px;
+    text-align: center;
+    display: inline-block;
+    margin: 0px 5px;
+}
+#myTable .form-control{
+    width: auto;
+    display: inline-block;
+}
+.cart-qty-plus,
+.cart-qty-minus{
+    width: 38px;
+    height: 38px;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+}
+.cart-qty-plus:hover,
+.cart-qty-minus:hover{
+    background-color: #5161ce;
+    color: #fff;
+}
+.img-prdct{
+    width: 50px;
+    height: 50px;
+    background-color: #5f1942;
+    border-radius: 4px;
+}
+.img-prdct img{
+    width: 100%;
+}
+
+thead tr{
+    background-color: #343A40;
+    color: white;
+}
+
+.cart-qty-plus{
+    background-color:#00a5e8;
+    color:white;
+    font-weight: 600;
+}
+.cart-qty-minus{
+    background-color:#00a5e8;
+    color:white;
+    font-weight: 600;
+}
